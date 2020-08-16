@@ -1,0 +1,3 @@
+APP_SECRET_KEY             = 'xxxxxxxxxxxxxxxx' # random string
+OAUTH_GITHUB_CLIENT_ID     = 'ffffffffffffffffffff'
+OAUTH_GITHUB_SECRET        = 'ffffffffffffffffffffffffffffffffffffffff'

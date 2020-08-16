@@ -52,7 +52,22 @@ $ aws acm --region us-east-1 list-certificates
 
 Step 3:
 
-modify src/serverless.yml, line with [BBPMSLSX]
+Register OAuth app in Github
+
+https://github.com/settings/applications/new
+
+Homepage URL = https://xxx.pplygygrhq.com/
+Authorization callback URL = https://xxx.pplygygrhq.com/authorize
+
+Copy Client ID
+Copy Client Secret
+
+================================
+
+Step 3:
+
+Modify src/serverless.yml, line with [BBPMSLSX]
+Copy src/conf.py.exmaple to src/conf.py, modify all line
 
 ================================
 

@@ -7,6 +7,7 @@ MY_PATH=${PWD}
 cd ${MY_PATH}
 rm -rf venv-aws-deploy
 rm -rf node_modules
+rm -rf src/__pycache__
 
 cd ${MY_PATH}
 npm install
