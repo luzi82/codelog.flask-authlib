@@ -21,6 +21,7 @@ pip install awscli
 
 cd ${MY_PATH}/src
 ${SERVERLESS} remove
+${SERVERLESS} delete_domain
 
 cd ${MY_PATH}
 deactivate

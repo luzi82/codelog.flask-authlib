@@ -19,7 +19,13 @@ custom:
     pythonBin: python
   pythonRequirements:
     dockerizePip: false
+  customDomain:
+    domainName: nuxzieqnul.aws-hknsidwoow.luzi82.com # [BBPMSLSX] end point domain, "nuxzieqnul" part is up to you
+    basePath: ''
+    createRoute53Record: true
+    certificateName: "*.aws-hknsidwoow.luzi82.com" # [BBPMSLSX] domain name set in AWS Certifiicate Manager
 
 plugins:
+  - serverless-domain-manager
   - serverless-wsgi
   - serverless-python-requirements
