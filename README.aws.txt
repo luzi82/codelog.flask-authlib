@@ -90,7 +90,8 @@ Hello, World!
 Step 5:
 
 Test OAuth
-(TBA)
+https://xxx.pplygygrhq.com/github_login
+After login, a json data with user info should be shown.
 
 ================================
 
